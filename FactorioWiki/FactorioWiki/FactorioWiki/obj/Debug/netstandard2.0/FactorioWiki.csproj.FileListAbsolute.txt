@@ -1,0 +1,16 @@
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\bin\Debug\netstandard2.0\FactorioWiki.deps.json
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\bin\Debug\netstandard2.0\FactorioWiki.dll
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\bin\Debug\netstandard2.0\FactorioWiki.pdb
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.csproj.AssemblyReference.cache
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.AssemblyInfoInputs.cache
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.AssemblyInfo.cs
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.csproj.CoreCompileInputs.cache
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.dll
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\refint\FactorioWiki.dll
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\FactorioWiki.pdb
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\ref\FactorioWiki.dll
+C:\Users\Doteyo\source\repos\FactorioWiki\FactorioWiki\FactorioWiki\obj\Debug\netstandard2.0\ItemPage.xaml.g.cs
