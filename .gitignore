@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+FactorioWiki/FactorioWiki/FactorioWiki.Android/Resources/Resource.designer.cs
