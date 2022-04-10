@@ -1,4 +1,5 @@
 **/Debug
+**/debug
 *.flat
 *.zip
 *.s
