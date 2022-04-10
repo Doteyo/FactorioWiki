@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {}
+    "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {
+    "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
+        "projectUniqueName": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
         "projectName": "FactorioWiki",
-        "projectPath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
+        "projectPath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
         "packagesPath": "C:\\Users\\Doteyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\obj\\",
+        "outputPath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

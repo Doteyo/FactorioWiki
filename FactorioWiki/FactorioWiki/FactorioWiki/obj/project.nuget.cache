@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "enPvqBSW5vU4klvHam03hxC4dVPv2dpo+Ho6yBU8thN4CbvXev27hkdr8CBblzVMRH/aMUBTGWzYnHpU/d92eg==",
+  "dgSpecHash": "f1t1xTGIMsDkfZSmXMrnzR/Bi+dwFxoVsOm2dilS8LD+rAMzoTXEOXDSE9yKljZi0rNp/53N+pgTgDjrwe+a+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
+  "projectFilePath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Doteyo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Doteyo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

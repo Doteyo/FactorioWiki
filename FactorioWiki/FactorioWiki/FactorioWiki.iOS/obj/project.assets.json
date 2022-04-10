@@ -988,11 +988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\FactorioWiki.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\FactorioWiki.iOS.csproj",
       "projectName": "FactorioWiki.iOS",
-      "projectPath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\FactorioWiki.iOS.csproj",
+      "projectPath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\FactorioWiki.iOS.csproj",
       "packagesPath": "C:\\Users\\Doteyo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1013,8 +1013,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {
-              "projectPath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj"
+            "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj": {
+              "projectPath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.csproj"
             }
           }
         }

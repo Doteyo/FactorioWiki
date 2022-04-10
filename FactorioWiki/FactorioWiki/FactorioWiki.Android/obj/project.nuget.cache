@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EQsf7FlDsBqxMkNB9iwAhApCyd/4g6ELMRCxw6mV3OwCzanzBjtjrjRGKTYwkMEGgCJZEdcREP+2CYLmOuyVlw==",
+  "dgSpecHash": "/qh+WLvT1A4151BNwPqLUUtkVfaDTuA8pSw+UDyR4tLFfPyQQE2Tg2YCZYPtA9Gb3/tiFMiw5dNdP+oTSvTxQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doteyo\\source\\repos\\FactorioWiki\\FactorioWiki\\FactorioWiki.Android\\FactorioWiki.Android.csproj",
+  "projectFilePath": "C:\\Users\\Doteyo\\Documents\\GitHub\\FactorioWiki\\FactorioWiki\\FactorioWiki\\FactorioWiki.Android\\FactorioWiki.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Doteyo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Doteyo\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
