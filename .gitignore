@@ -1,4 +1,7 @@
-
+*.flat
+*.zip
+*.s
+*.o
 *.cache
 *.json
 FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/FactorioWiki.GeneratedMSBuildEditorConfig.editorconfig
