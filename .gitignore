@@ -1,0 +1,10 @@
+
+*.cache
+*.json
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/FactorioWiki.GeneratedMSBuildEditorConfig.editorconfig
+FactorioWiki/FactorioWiki/FactorioWiki.Android/obj/Debug/120/designtime/build.props
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/App.xaml.g.cs
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/FactorioWiki.AssemblyInfo.cs
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/ItemPage.xaml.g.cs
+FactorioWiki/FactorioWiki/FactorioWiki/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
