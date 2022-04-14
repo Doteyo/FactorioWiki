@@ -22,6 +22,9 @@ namespace FactorioWiki
             FactorioItems.Add(new FactorioItem("Электрический бур", "улучшенная версия твердотопливного бура. Работает от электрической сети.", "https://static.wikia.nocookie.net/factorio/images/e/e9/Electric-mining-drill.png/revision/latest/scale-to-width-down/64?cb=20200616124455&path-prefix=ru"));
             FactorioItems.Add(new FactorioItem("Большая опора ЛЭП", "используется для передачи электричества на большие расстояния.", "https://static.wikia.nocookie.net/factorio/images/e/e1/Big-electric-pole.png/revision/latest/scale-to-width-down/64?cb=20200527080505&path-prefix=ru"));
             FactorioItems.Add(new FactorioItem("Экспресс-конвейер", "улучшенная версия конвейера. Обладает наивысшей скоростью перемещения из всех конвейерных лент", "https://static.wikia.nocookie.net/factorio/images/4/41/Express-transport-belt.png/revision/latest/scale-to-width-down/64?cb=20200527130917&path-prefix=ru"));
-            FactorioItems.Add(new FactorioItem("Строительный дрон", "имеют несколько различных назначений", "https://static.wikia.nocookie.net/factorio/images/b/bd/Construction-robot.png/revision/latest/scale-to-width-down/64?cb=20200527081922&path-prefix=ru"));        }
+            FactorioItems.Add(new FactorioItem("Строительный дрон", "имеют несколько различных назначений", "https://static.wikia.nocookie.net/factorio/images/b/bd/Construction-robot.png/revision/latest/scale-to-width-down/64?cb=20200527081922&path-prefix=ru"));
+            FactorioItems.Add(BasicMaterials.Fish);
+            FactorioItems.Add(BasicMaterials.Oil);
+        }
     }
 }

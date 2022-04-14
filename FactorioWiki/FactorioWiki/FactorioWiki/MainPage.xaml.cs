@@ -20,7 +20,7 @@ namespace FactorioWiki
         private async void ItemList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var item = e.Item as FactorioItem;
-            await Navigation.PushAsync(new Page1(item.ItemName, item.Description, item.Picture));
+            await Navigation.PushAsync(new Page1(item));
         }
     }
 }

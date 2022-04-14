@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactorioWiki
 {
-    internal class FactorioItem
+    public class FactorioItem
     {
         //public int Quantity { get; set; }
         //public int Hashcode { get; set; } 

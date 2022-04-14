@@ -6,8 +6,22 @@ namespace FactorioWiki
 {
     internal class BasicMaterials
     {
-        public readonly static FactorioItem Wood = new FactorioItem("Wood", "Basic res wood", "https://static.wikia.nocookie.net/factorio/images/d/df/Wood.png/revision/latest/scale-to-width-down/64?cb=20200606094626&path-prefix=ru");
+        public readonly static FactorioItem Wood = new FactorioItem("Wood", "Basic res wood", "Wood.png");
 
-        public readonly static FactorioItem IronOre = new FactorioItem("IronOre", "Природный ресурс. Добыча железной руды может быть автоматизирована.", "https://static.wikia.nocookie.net/factorio/images/f/fd/Iron-ore.png/revision/latest/scale-to-width-down/64?cb=20200527131328&path-prefix=ru");
+        public readonly static FactorioItem IronOre = new FactorioItem("IronOre", "Природный ресурс. Добыча железной руды может быть автоматизирована.", "Ironore.png");
+
+        public readonly static FactorioItem Stone = new FactorioItem("Stone", "-", "Stone.png");
+
+        public readonly static FactorioItem Oil = new FactorioItem("Oil", "-", "");
+
+        public readonly static FactorioItem Water = new FactorioItem("Water", "-", "Water.png");
+
+        public readonly static FactorioItem CopperOre = new FactorioItem("CopperOre", "-", "Copperore.png");
+
+        public readonly static FactorioItem Unranium = new FactorioItem("Unranium", "-", "");
+
+        public readonly static FactorioItem Coal = new FactorioItem("Coal", "-", "Coal.png");
+
+        public readonly static FactorioItem Fish = new FactorioItem("Fish", "-", "Fish.png");
     }
 }

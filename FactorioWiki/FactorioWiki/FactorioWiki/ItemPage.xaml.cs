@@ -12,12 +12,23 @@ namespace FactorioWiki
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage
     {
-        public Page1(string ItemName, string Description, string Picture)
+        public Page1(FactorioItem item)
         {
             InitializeComponent();
-            Name.Text = ItemName;
-            ItemDesc.Text = Description;
-            ImageCont.Source = new Uri(Picture);
+            Name.Text = item.ItemName;
+            ItemDesc.Text = item.Description;
+            try
+            {
+                ImageCont.Source = new Uri(item.Picture);
+            }
+            catch
+            {
+                ImageCont.Source = item.Picture;
+            }
+            finally
+            {
+                ImageCont.IsVisible = false;
+            }
         }
     }
 }
