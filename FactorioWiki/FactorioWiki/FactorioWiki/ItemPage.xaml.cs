@@ -25,10 +25,8 @@ namespace FactorioWiki
             {
                 ImageCont.Source = item.Picture;
             }
-            finally
-            {
+            if (item.Picture == "")
                 ImageCont.IsVisible = false;
-            }
         }
     }
 }
