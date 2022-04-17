@@ -11,7 +11,7 @@ namespace FactorioWiki
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage()) { BarBackgroundColor = Color.FromRgb(24,25,24), BackgroundColor = Color.FromHex("#333333") };
+            MainPage = new FlyoutPageTest() { BackgroundColor = Color.FromHex("#333333") };
         }
 
         protected override void OnStart()
