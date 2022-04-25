@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FactorioWiki.FlyoutPageTest"
              xmlns:pages="clr-namespace:FactorioWiki"
-            BackgroundColor="#333333">
+            BackgroundColor="#333333"
+            Title="Home">
   <FlyoutPage.Flyout>
     <pages:FlyoutPageTestFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>

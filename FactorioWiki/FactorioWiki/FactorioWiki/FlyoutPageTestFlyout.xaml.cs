@@ -33,11 +33,8 @@ namespace FactorioWiki
             {
                 MenuItems = new ObservableCollection<FlyoutPageTestFlyoutMenuItem>(new[]
                 {
-                    new FlyoutPageTestFlyoutMenuItem { Id = 0, Title = "Page 1" },
-                    new FlyoutPageTestFlyoutMenuItem { Id = 1, Title = "Page 2" },
-                    new FlyoutPageTestFlyoutMenuItem { Id = 2, Title = "Page 3" },
-                    new FlyoutPageTestFlyoutMenuItem { Id = 3, Title = "Page 4" },
-                    new FlyoutPageTestFlyoutMenuItem { Id = 4, Title = "Page 5" },
+                    new FlyoutPageTestFlyoutMenuItem { Id = 0, Title =  "Calculator" },
+                    new FlyoutPageTestFlyoutMenuItem { Id = 1, Title =  "Settings" }
                 });
             }
 
