@@ -16,7 +16,7 @@ namespace FactorioWiki
         {
             InitializeComponent();
             Name.Text = item.ItemName;
-            ItemDesc.Text = item.Description;
+            ItemDesc.Text = item.LongDes;
             try
             {
                 ImageCont.Source = new Uri(item.Picture);

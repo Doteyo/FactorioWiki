@@ -6,7 +6,7 @@ namespace FactorioWiki
 {
     internal class BasicMaterials
     {
-        public readonly static FactorioItem Wood = new FactorioItem("Wood", "Basic res wood", "Wood.png");
+        public readonly static FactorioItem Wood = new FactorioItem("Wood", "Basic res wood", "ssss" , "Wood.png");
 
         public readonly static FactorioItem IronOre = new FactorioItem("IronOre", "Природный ресурс. Добыча железной руды может быть автоматизирована.", "Ironore.png");
 

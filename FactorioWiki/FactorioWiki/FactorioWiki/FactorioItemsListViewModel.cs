@@ -6,7 +6,7 @@ using Xamarin.Essentials;
 
 namespace FactorioWiki
 {
-    internal class FactorioItemsListViewModel
+    public class FactorioItemsListViewModel
     {
         public ObservableCollection<FactorioItem> FactorioItems { get; set; }
         public FactorioItemsListViewModel()
