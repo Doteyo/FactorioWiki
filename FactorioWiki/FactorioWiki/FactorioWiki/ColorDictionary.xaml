@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FactorioWiki.ColorDictionary">
+    <!-- Light colors -->
+    <Color x:Key="LightPrimaryColor">LightGray</Color>
+    <Color x:Key="LightSecondaryColor">Black</Color>
+    <Color x:Key="LightMenuColor">WhiteSmoke</Color>
+    <Color x:Key="LightBarColor">Gray</Color>
+
+    <!-- Dark colors -->
+    <Color x:Key="DarkPrimaryColor">#242324</Color>
+    <Color x:Key="DarkSecondaryColor">White</Color>
+    <Color x:Key="DarkMenuColor">#333333</Color>
+    <Color x:Key="DarkBarColor">#191818</Color>
+    
+</ResourceDictionary>

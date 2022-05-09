@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FactorioWiki.Page1" BackgroundColor="#333333">
+             x:Class="FactorioWiki.Page1" BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary Source="ColorDictionary.xaml"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Start" Margin="10">
             <Image x:Name="ImageCont" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
