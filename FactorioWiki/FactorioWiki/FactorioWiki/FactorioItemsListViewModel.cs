@@ -25,6 +25,7 @@ namespace FactorioWiki
             //FactorioItems.Add(new FactorioItem("Строительный дрон", "имеют несколько различных назначений", "https://static.wikia.nocookie.net/factorio/images/b/bd/Construction-robot.png/revision/latest/scale-to-width-down/64?cb=20200527081922&path-prefix=ru"));
             FactorioItems.Add(BasicMaterials.Fish);
             FactorioItems.Add(BasicMaterials.Oil);
+            FactorioItems.Add(BasicMaterials.Mazut);
         }
     }
 }

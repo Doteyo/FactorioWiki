@@ -18,7 +18,7 @@ namespace FactorioWiki
         public string Picture { get; set; }
         public Technology Technology { get; set; }
         public FactorioItem[] Factory { get; set; }
-        public (int, FactorioItem)[] ResoursesToCraft { get; set; }
+        public (double, FactorioItem)[] ResoursesToCraft { get; set; }
 
         /// <summary>
         /// Предмет
@@ -30,23 +30,24 @@ namespace FactorioWiki
         /// <param name="Technology"> Последняя необходимая технология</param>
         /// <param name="Factory"> На чем создавать предмет</param>
         /// <param name="ResoursesToCraft"> Предметы из котрых крафтиться</param>
-        public FactorioItem(string ItemName, string ShortDes, string LongDes, double time, string Picture, params (int,FactorioItem)[] ResoursesToCraft)
+        public FactorioItem(string ItemName, string ShortDes, string LongDes, double time, FactorioItem[] factory, string Picture, params (double, FactorioItem)[] ResoursesToCraft)
         {
             this.ItemName = ItemName;
             this.ShortDes = ShortDes;
             this.LongDes = LongDes;
             Time = time;
+            Factory = factory;
             this.Picture = Picture;
             this.ResoursesToCraft = ResoursesToCraft;
         }
 
-        public FactorioItem(string ItemName, string ShortDes, string LongDes, string Picture, double time = 0, FactorioItem[] factory = null, params (int, FactorioItem)[] ResoursesToCraft)
-        {
-            this.ItemName = ItemName;
-            this.ShortDes = ShortDes;
-            this.LongDes = LongDes;
-            this.Picture = Picture;
-            this.ResoursesToCraft = ResoursesToCraft;
-        }
+        //public FactorioItem(string ItemName, string ShortDes, string LongDes, string Picture, double time = 0, FactorioItem[] factory = null, params (int, FactorioItem)[] ResoursesToCraft)
+        //{
+        //    this.ItemName = ItemName;
+        //    this.ShortDes = ShortDes;
+        //    this.LongDes = LongDes;
+        //    this.Picture = Picture;
+        //    this.ResoursesToCraft = ResoursesToCraft;
+        //}
     }
 }

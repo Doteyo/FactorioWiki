@@ -76,63 +76,63 @@ namespace FactorioWiki
 
         public readonly static FactorioItem SpeedModule = new FactorioItem("Модуль скорости", "", "Модуль скорости - модуль ускорения производства или добычи сооружений. Так же время увеличивает потребление электроэнергии. Для работы модуля скорости его необходимо поместить в свободный слот сооружения с поддержкой модулей. Одно и то же сооружение может использовать несколько одинаковых модулей скорости. Эффект суммируется.", 15, "", (5, BetterCxema), (5, Cxema));
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
-        public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 
 
     }
