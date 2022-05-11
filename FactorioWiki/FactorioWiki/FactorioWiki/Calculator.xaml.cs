@@ -40,7 +40,7 @@ namespace FactorioWiki
             else
             {
                 Factors.Clear();
-                foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ItemName.ToLower().Contains(e.NewTextValue.ToLower())))
+                foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ItemName.ToLower().Contains(e.NewTextValue.ToLower()) && x.ResoursesToCraft.Length > 0))
                     Factors.Add(c);
             }
         }
