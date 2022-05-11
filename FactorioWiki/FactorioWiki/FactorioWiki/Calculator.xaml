@@ -1,13 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FactorioWiki.Calculator">
+             x:Class="FactorioWiki.Calculator"
+             xmlns:local="clr-namespace:FactorioWiki" BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
+    <ContentPage.Resources>
+        <ResourceDictionary Source="ColorDictionary.xaml"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Программист в этот момент устал заглянитесюда позднее"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                FontSize="34"/>
+            <Entry Placeholder="Введите кол-во предмета" Text="1" x:Name="NumEntry" MaxLength="10" Keyboard="Numeric"/>
+            <Entry TextChanged="Entry_TextChanged" Placeholder="Введите название предмета" Focused="TextEntry_Focused" Unfocused="TextEntry_Unfocused" x:Name="TextEntry"/>
+            <ListView x:Name="ItemList" ItemTapped="ItemList_ItemTapped" x:DataType="local:FactorioItem" HorizontalOptions="StartAndExpand" IsVisible="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
+                                <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                                <Image Source="{Binding Picture}"/>
+                            </FlexLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView x:Name="ResorcesList" x:DataType="local:twoshit">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
+                                <Label Text="{Binding count}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                                <Label Text ="{Binding item}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+                            </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

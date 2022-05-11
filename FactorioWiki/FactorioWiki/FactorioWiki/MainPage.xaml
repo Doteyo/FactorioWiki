@@ -9,7 +9,7 @@
     </ContentPage.Resources>
     
         <StackLayout>
-        <Label Text="Тест списков" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" FontSize="Medium"/>
+        <Label Text="Главное меню" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" FontSize="Medium"/>
 
         <ListView x:Name="ItemList" ItemTapped="ItemList_ItemTapped" ItemsSource="{Binding FactorioItems}" HorizontalOptions="StartAndExpand">
             <ListView.ItemTemplate>
@@ -18,7 +18,7 @@
                         <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
                             <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
                             <Image Source="{Binding Picture}"/>
-                            <Label Text="{Binding ShortDes}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+                            <!--<Label Text="{Binding ShortDes}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>-->
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>

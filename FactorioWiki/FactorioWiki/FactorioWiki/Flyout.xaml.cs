@@ -27,7 +27,7 @@ namespace FactorioWiki
             var page = item.TargetPage;
             page.Title = item.Title;
 
-            Detail = new NavigationPage(page);
+            Detail = new NavigationPage(page){BarBackgroundColor = Nav.BarBackgroundColor};
             IsPresented = false;
 
             FlyoutPage.ListView.SelectedItem = null;

@@ -10,8 +10,8 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Start" Margin="10">
             <Image x:Name="ImageCont" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
-            <Label x:Name="Name" TextColor="White"/>
-            <Label x:Name="ItemDesc" TextColor="White"/>
+            <Label x:Name="Name" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+            <Label x:Name="ItemDesc" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

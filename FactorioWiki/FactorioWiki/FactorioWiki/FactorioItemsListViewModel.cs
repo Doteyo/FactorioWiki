@@ -26,6 +26,14 @@ namespace FactorioWiki
             FactorioItems.Add(BasicMaterials.Fish);
             FactorioItems.Add(BasicMaterials.Oil);
             FactorioItems.Add(BasicMaterials.Mazut);
+            FactorioItems.Add(BasicMaterials.Batery);
+            FactorioItems.Add(BasicMaterials.Coal);
+            FactorioItems.Add(BasicMaterials.Smazka);
+            FactorioItems.Add(BasicMaterials.Sera);
+            FactorioItems.Add(BasicMaterials.ToxicSera);
+            FactorioItems.Add(BasicMaterials.Cxema);
+            FactorioItems.Add(BasicMaterials.Stone);
+            FactorioItems.Add(BasicMaterials.CopperOre);
         }
     }
 }
