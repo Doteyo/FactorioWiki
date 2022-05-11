@@ -30,10 +30,14 @@ namespace FactorioWiki
             FactorioItems.Add(BasicMaterials.Coal);
             FactorioItems.Add(BasicMaterials.Smazka);
             FactorioItems.Add(BasicMaterials.Sera);
-            FactorioItems.Add(BasicMaterials.ToxicSera);
             FactorioItems.Add(BasicMaterials.Cxema);
             FactorioItems.Add(BasicMaterials.Stone);
             FactorioItems.Add(BasicMaterials.CopperOre);
+            FactorioItems.Add(BasicMaterials.Putin);
+            FactorioItems.Add(BasicMaterials.Process);
+            FactorioItems.Add(BasicMaterials.StoneBlock);
+            FactorioItems.Add(BasicMaterials.Beton);
+            FactorioItems.Add(BasicMaterials.Wood);
         }
     }
 }

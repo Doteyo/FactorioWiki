@@ -154,4 +154,55 @@
   <ItemGroup>
     <BundleResource Include="Resources\Stone.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Battery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Concrete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Explosives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Lubricant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Sulfur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Copper_plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Crude_oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Electronic_circuit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Heavy_oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Light_oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Petroleum_gas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Plastic_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Processing_unit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Speed_module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Stone_brick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Iron_plate.png" />
+  </ItemGroup>
 </Project>
