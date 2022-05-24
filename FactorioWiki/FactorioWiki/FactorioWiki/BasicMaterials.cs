@@ -76,17 +76,17 @@ namespace FactorioWiki
 
         public readonly static FactorioItem SpeedModule = new FactorioItem("Модуль скорости", "", "Модуль скорости - модуль ускорения производства или добычи сооружений. Так же время увеличивает потребление электроэнергии. Для работы модуля скорости его необходимо поместить в свободный слот сооружения с поддержкой модулей. Одно и то же сооружение может использовать несколько одинаковых модулей скорости. Эффект суммируется.", 15, Factory.AllVerstacs, "", (5, BetterCxema), (5, Cxema));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem Pack1 = new FactorioItem("Автоматизационный исследовательский пакет", "", "Автоматизационный исследовательский пакет - базовый пакет, используемый для исследования технологий в лабораториях.Оптимальная автомататизация: 1 сборочный автомат для производства шестеренок на 10 автоматов для производства исследовательских пакетов.", 5, Factory.AllVerstacs, "", (1, CopperList), (1, IroneShesterny));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem Conveer = new FactorioItem("Конвейер", "", "Конвейер служит для перемещения предметов между сборочными линиями. Базовая версия доступна в самом начале игры. Для изменения направления движения уже установленного конвейера, необходимо навести на него мышку и нажать кнопку R. Характеристики: Скорость перемещения 1.875 клетки/с, Скорость приёма 15 предметов / с на обе линии", 0.5, Factory.AllVerstacs, "", (1, IronList), (1, IroneShesterny));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem Manipulator = new FactorioItem("Манипулятор", "", "Манипулятор - базовый манипулятор, работающий от электросети, доступный в самом начале игры. Манипулятор всегда кладет предметы на дальнюю от себя сторону конвейера, подбирать может с любой стороны. Не может брать движущиеся предметы с Экспресс - конвейера, в связи с высокой скоростью их перемещения.Так же не может брать предметы с дальней стороны конвейера на повороте.", 0.5, Factory.AllVerstacs, "", (1, IronList), (1, IroneShesterny), (1, Cxema));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem Pack2 = new FactorioItem("Логистический исследовательский пакет", "", "Логистический исследовательский пакет - пакет второго уровня, используемый для исследования технологий в лабораториях. Оптимальная автомататизация: 2 сборочных автомата для производства манипуляторов и 1 - для конвейеров на 24 автомата для производства исследовательских пакетов.", 6, Factory.AllVerstacs, "", (1, Manipulator), (1, Conveer));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem OilDvigatel = new FactorioItem("Твердотопливный двигатель", "", "Твердотопливный двигатель используется для создания средств передвижения, таких как дизельный локомотив, автомобиль и тяжелый танк.", 20, Factory.AllVerstacs, "", (1, StealBeam), (1, IroneShesterny), (2, Truba));
 
-        //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
+        public readonly static FactorioItem Pack3 = new FactorioItem("Химический исследовательский пакет", "", "Химический исследовательский пакет - пакет третьего уровня, используемый для исследования технологий в лабораториях. Оптимальная автоматизация: 16 сборочных автоматов для производства улучшенных электросхем, 10 - для аккумуляторов и 1 - для настраиваемых манипуляторов на 24 автомата для производства исследовательских пакетов.", 12, Factory.AllVerstacs, "", (1, OilDvigatel), (1, BetterCxema), (1, Sera));
 
         //public readonly static FactorioItem Item = new FactorioItem("", "", "", "");
 

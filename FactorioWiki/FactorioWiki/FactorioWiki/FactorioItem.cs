@@ -6,7 +6,25 @@ namespace FactorioWiki
 {
     public class Technology
     {
+        public string ItemName { get; set; }
+        public double Time { get; set; }
+        public string Picture { get; set; }
+        public Technology RequiredTechnology { get; set; }
+        public (double, FactorioItem)[] ResoursesToCraft { get; set; }
+        public FactorioItem[] ToOpenItem { get; set; }
+        public Technology[] ToOpenTechnologies { get; set; }
 
+        public Technology(string itemName, double time, Technology requiredTechnology, (double, FactorioItem)[] resoursesToCraft, 
+            string picture, Technology[] toOpenTechnologies, params FactorioItem[] toOpenItem)
+        {
+            ItemName = itemName;
+            Time = time;
+            RequiredTechnology = requiredTechnology;
+            RequiredTechnology.ResoursesToCraft = resoursesToCraft;
+            Picture = picture;
+            ToOpenItem = toOpenItem;
+            ToOpenTechnologies = toOpenTechnologies;
+        }
     }
 
     public class FactorioItem

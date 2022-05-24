@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactorioWiki
 {
-    internal class Factory
+    class Factory
     {
         public readonly static FactorioItem Hand = new FactorioItem("Ручная добыча", "", "", 0, new FactorioItem[0], "");
         public readonly static FactorioItem StonePech = new FactorioItem("Каменная печь", "Позволяет переплавлять руду. Скорость переплавки 100%. Нуждается в топливе", "Каменная печь - самое простое устройство для переплавки. Для работы требуется сырьё и топливо. Как и со многими другими объектами-потребителями, ресурсы могут быть доставлены вручную или с помощью манипуляторов.", 0.5, AllVerstacs, "", (5, BasicMaterials.Stone));
