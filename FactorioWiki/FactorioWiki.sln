@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioWiki.Android", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioWiki.iOS", "FactorioWiki\FactorioWiki.iOS\FactorioWiki.iOS.csproj", "{099864CB-9C95-49F9-9BB1-7A72AD419870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioWiki", "FactorioWiki\FactorioWiki\FactorioWiki.csproj", "{269ECE6E-1072-4C76-A678-05D09F71F7D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorioWiki", "FactorioWiki\FactorioWiki\FactorioWiki.csproj", "{269ECE6E-1072-4C76-A678-05D09F71F7D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{294F30D0-3BCE-4782-B0DE-EC0F3B6599BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

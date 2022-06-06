@@ -23,21 +23,21 @@ namespace FactorioWiki
             //FactorioItems.Add(new FactorioItem("Большая опора ЛЭП", "используется для передачи электричества на большие расстояния.", "https://static.wikia.nocookie.net/factorio/images/e/e1/Big-electric-pole.png/revision/latest/scale-to-width-down/64?cb=20200527080505&path-prefix=ru"));
             //FactorioItems.Add(new FactorioItem("Экспресс-конвейер", "улучшенная версия конвейера. Обладает наивысшей скоростью перемещения из всех конвейерных лент", "https://static.wikia.nocookie.net/factorio/images/4/41/Express-transport-belt.png/revision/latest/scale-to-width-down/64?cb=20200527130917&path-prefix=ru"));
             //FactorioItems.Add(new FactorioItem("Строительный дрон", "имеют несколько различных назначений", "https://static.wikia.nocookie.net/factorio/images/b/bd/Construction-robot.png/revision/latest/scale-to-width-down/64?cb=20200527081922&path-prefix=ru"));
-            FactorioItems.Add(BasicMaterials.Fish);
-            FactorioItems.Add(BasicMaterials.Oil);
-            FactorioItems.Add(BasicMaterials.Mazut);
-            FactorioItems.Add(BasicMaterials.Batery);
-            FactorioItems.Add(BasicMaterials.Coal);
-            FactorioItems.Add(BasicMaterials.Smazka);
-            FactorioItems.Add(BasicMaterials.Sera);
-            FactorioItems.Add(BasicMaterials.Cxema);
-            FactorioItems.Add(BasicMaterials.Stone);
-            FactorioItems.Add(BasicMaterials.CopperOre);
-            FactorioItems.Add(BasicMaterials.Putin);
-            FactorioItems.Add(BasicMaterials.Process);
-            FactorioItems.Add(BasicMaterials.StoneBlock);
-            FactorioItems.Add(BasicMaterials.Beton);
-            FactorioItems.Add(BasicMaterials.Wood);
+            //FactorioItems.Add(Resoursec.Fish);
+            //FactorioItems.Add(Resoursec.Oil);
+            //FactorioItems.Add(Resoursec.Mazut);
+            //FactorioItems.Add(Resoursec.Batery);
+            //FactorioItems.Add(Resoursec.Coal);
+            //FactorioItems.Add(Resoursec.Smazka);
+            //FactorioItems.Add(Resoursec.Sera);
+            //FactorioItems.Add(Resoursec.Cxema);
+            //FactorioItems.Add(Resoursec.Stone);
+            //FactorioItems.Add(Resoursec.CopperOre);
+            //FactorioItems.Add(Resoursec.Putin);
+            //FactorioItems.Add(Resoursec.Process);
+            //FactorioItems.Add(Resoursec.StoneBlock);
+            //FactorioItems.Add(Resoursec.Beton);
+            //FactorioItems.Add(Resoursec.Wood);
         }
     }
 }
