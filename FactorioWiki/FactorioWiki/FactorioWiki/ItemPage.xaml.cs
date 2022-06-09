@@ -22,7 +22,7 @@ namespace FactorioWiki
             Name.Text = item.ItemName;
             ItemDesc.Text = item.LongDes;
             TimeLabel.Text = "Время изготовления(сек) " + item.Time.ToString();
-            if(item.Factory != null || item.Factory.Length != 0)
+            if(!(item.Factory is null) && item.Factory.Length != 0)
             {
                 item.Factory.ForEach(x => factories.Add(x));
                 FactoryList.ItemsSource = factories;

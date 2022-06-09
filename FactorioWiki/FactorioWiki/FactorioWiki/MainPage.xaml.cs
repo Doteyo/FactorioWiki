@@ -14,6 +14,7 @@ namespace FactorioWiki
     {
         ObservableCollection<FactorioItem> filtered = new ObservableCollection<FactorioItem>();
         FactorioItemsListViewModel model = new FactorioItemsListViewModel();
+        List<ListView> listViews = new List<ListView>();
         public MainPage()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace FactorioWiki
             Filtered.ItemsSource = filtered;
             Filtered.IsVisible = false;
             NonCraftableItems.IsVisible = false;
+            listViews.Add(NonCraftableItems);
         }
 
         private async void ItemList_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -49,6 +51,7 @@ namespace FactorioWiki
                 filtered.Add(c);
             Filtered.ItemsSource = filtered;
             Filtered.IsVisible = true;
+            listViews.ForEach(x => x.IsVisible = false);
         }
 
         private void Search_Unfocused(object sender, FocusEventArgs e)

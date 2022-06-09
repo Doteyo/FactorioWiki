@@ -47,7 +47,7 @@ namespace FactorioWiki
         {
             Resorces.Clear();
             var item = e.Item as FactorioItem;
-            foreach (var c in item.ResoursesToCraft)
+            foreach (var c in item.ResoursesToCraft.Where(x => !(x.Item2 is null)))
             {
                 Resorces.Add(new CustomTuple() { count = (c.Item1 * double.Parse(NumEntry.Text)).ToString(), item1 = c.Item2, picture = c.Item2.Picture, itemName = c.Item2.ItemName, time = c.Item2.Time.ToString() == "0" ? "": (c.Item2.Time * double.Parse(NumEntry.Text)).ToString()+" сек " });
             }

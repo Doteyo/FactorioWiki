@@ -47,7 +47,7 @@ namespace FactorioWiki
         public readonly static FactorioItem Process = new FactorioItem("Процессор", "Создается из электронных схем, улучшенных электронных схем и серной кислоты на сборочном автомате", "Процессор является компонентом для предметов поздней игры, в основном для создания модулей, силовой брони и её оборудования.", 15, Factories.Last2Verstacs, Technology.BetterElectronika, "Processing_unit.png", (20, Cxema), (2, BetterCxema), (0.5, ToxicSera));
 
         public readonly static FactorioItem IromePrute = new FactorioItem("Железный прут", "", "Железный прут - промежуточный этап производства.", 0.5, Factories.AllVerstacs, null, "", (1, IronList));
-        //?
+        
         public readonly static FactorioItem SpeedModule = new FactorioItem("Модуль скорости", "", "Модуль скорости - модуль ускорения производства или добычи сооружений. Так же время увеличивает потребление электроэнергии. Для работы модуля скорости его необходимо поместить в свободный слот сооружения с поддержкой модулей. Одно и то же сооружение может использовать несколько одинаковых модулей скорости. Эффект суммируется.", 15, Factories.AllVerstacs, Technology.SpeedModule, "", (5, BetterCxema), (5, Cxema));
         
         public readonly static FactorioItem OilDvigatel = new FactorioItem("Твердотопливный двигатель", "", "Твердотопливный двигатель используется для создания средств передвижения, таких как дизельный локомотив, автомобиль и тяжелый танк.", 20, Factories.AllVerstacs, Technology.Dvigatel, "", (1, StealBeam), (1, IroneShesterny), (2, ResourceDelivery.Truba));

@@ -11,7 +11,7 @@ namespace FactorioWiki
 
         public Terrain()
         {
-            ItemList = new List<FactorioItem> { StoneBlock, StoneBlock };
+            ItemList = new List<FactorioItem> { StoneBlock, Beton };
         }
     }
 }
