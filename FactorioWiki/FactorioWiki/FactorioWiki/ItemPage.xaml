@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FactorioWiki"
              x:Class="FactorioWiki.Page1" BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
     
     <ContentPage.Resources>
@@ -11,7 +12,21 @@
         <StackLayout HorizontalOptions="Start" Margin="10">
             <Image x:Name="ImageCont" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"/>
             <Label x:Name="Name" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+            <Label x:Name="TimeLabel" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
             <Label x:Name="ItemDesc" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+            <Label x:Name="Bruh" Text="Предмет создаётся тут:" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+            <ListView x:Name="FactoryList" x:DataType="local:FactorioItem" ItemTapped="FactoryList_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
+                                <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                                <Image Source="{Binding Picture}"/>
+                            </FlexLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

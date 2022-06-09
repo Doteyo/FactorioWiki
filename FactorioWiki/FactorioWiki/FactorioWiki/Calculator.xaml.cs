@@ -12,15 +12,13 @@ namespace FactorioWiki
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Calculator : ContentPage
     {
-        public double Mult = 1;
-
-        public ObservableCollection<customTuple> Resorces;
+        public ObservableCollection<CustomTuple> Resorces;
 
         public ObservableCollection<FactorioItem> Factors;
         public Calculator()
         {
             InitializeComponent();
-            Resorces = new ObservableCollection<customTuple>();
+            Resorces = new ObservableCollection<CustomTuple>();
             ResorcesList.ItemsSource = Resorces;
             Factors = new ObservableCollection<FactorioItem>();
             foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ResoursesToCraft.Length > 0))
@@ -51,25 +49,38 @@ namespace FactorioWiki
             var item = e.Item as FactorioItem;
             foreach (var c in item.ResoursesToCraft)
             {
-                Resorces.Add(new customTuple() { count = c.Item1 * double.Parse(NumEntry.Text), item = c.Item2.ItemName, picture = c.Item2.Picture });
+                Resorces.Add(new CustomTuple() { count = (c.Item1 * double.Parse(NumEntry.Text)).ToString(), item1 = c.Item2, picture = c.Item2.Picture, itemName = c.Item2.ItemName, time = c.Item2.Time.ToString() == "0" ? "": (c.Item2.Time * double.Parse(NumEntry.Text)).ToString()+" сек " });
             }
             ItemList.IsVisible = false;
             ResorcesList.IsVisible = true;
+            TextEntry.Text = item.ItemName;
         }
 
         private void TextEntry_Focused(object sender, FocusEventArgs e)
         {
             ItemList.IsVisible = true;
             ResorcesList.IsVisible = false;
+            TextEntry.Text = "";
+        }
+
+        private void ResourceList_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var item = e.Item as CustomTuple;
+            if(item != null)
+                Navigation.PushAsync(new Page1(item.item1));
+        }
+
+        private void NumEntry_Completed(object sender, EventArgs e)
+        {
         }
     }
 
-    public class customTuple
+    public class CustomTuple
     {
-        public double count { get; set; }
-
-        public string item { get; set; }
-
-        public string picture { set; get; }
+        public string time { get; set; }
+        public string count { get; set; }
+        public string picture { get; set; }
+        public string itemName { get; set; }
+        public FactorioItem item1 { get; set; }
     }
 }

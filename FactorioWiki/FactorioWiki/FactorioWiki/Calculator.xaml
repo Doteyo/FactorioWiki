@@ -8,7 +8,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Введите кол-во предмета" Text="1" x:Name="NumEntry" MaxLength="10" Keyboard="Numeric"/>
+            <Entry Placeholder="Введите кол-во предмета" Text="1" x:Name="NumEntry" MaxLength="10" Keyboard="Numeric" Completed="NumEntry_Completed"/>
             <Entry TextChanged="Entry_TextChanged" Placeholder="Введите название предмета" Focused="TextEntry_Focused" x:Name="TextEntry"/>
             <ListView x:Name="ItemList" ItemTapped="ItemList_ItemTapped" x:DataType="local:FactorioItem" HorizontalOptions="StartAndExpand" IsVisible="False">
                 <ListView.ItemTemplate>
@@ -22,14 +22,15 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <ListView x:Name="ResorcesList" x:DataType="local:customTuple">
+            <ListView x:Name="ResorcesList" x:DataType="local:CustomTuple" ItemTapped="ResourceList_ItemTapped">
                 <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
                                 <Label Text="{Binding count}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                                <Label Text="{Binding time}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
                                 <Image Source="{Binding picture}"/>
-                                <Label Text ="{Binding item}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+                                <Label Text ="{Binding itemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
                             </FlexLayout>
                     </ViewCell>
                 </DataTemplate>

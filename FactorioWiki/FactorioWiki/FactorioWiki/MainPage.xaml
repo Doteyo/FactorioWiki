@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FactorioWiki.MainPage"
+             xmlns:local="clr-namespace:FactorioWiki"
              BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
     
     <ContentPage.Resources>
@@ -9,9 +10,8 @@
     </ContentPage.Resources>
     
         <StackLayout>
-        <Label Text="Главное меню" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" FontSize="Medium"/>
-
-        <ListView x:Name="ItemList" ItemTapped="ItemList_ItemTapped" ItemsSource="{Binding FactorioItems}" HorizontalOptions="StartAndExpand">
+        <Entry Placeholder="Введите название предмета" x:Name="Search" TextChanged="Search_TextChanged" Focused="Search_Focused" Unfocused="Search_Unfocused"/>
+        <ListView x:Name="Filtered" ItemTapped="ItemList_ItemTapped" x:DataType="local:FactorioItem" HorizontalOptions="StartAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -24,7 +24,21 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
+        <Button Text="Ресурсы" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" FontSize="Medium" x:Name="Resource_Button" Clicked="Resource_Button_Clicked"/>
+        <ListView x:Name="NonCraftableItems" ItemTapped="ItemList_ItemTapped" ItemsSource="{Binding resources}" HorizontalOptions="StartAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
+                            <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                            <Image Source="{Binding Picture}"/>
+                            <!--<Label Text="{Binding ShortDes}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>-->
+                        </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Инструменты"/>
     </StackLayout>
 
 </ContentPage>

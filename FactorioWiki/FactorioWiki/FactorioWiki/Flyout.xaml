@@ -10,12 +10,13 @@
     
     <FlyoutPage.Flyout>
     <pages:FlyoutFlyout x:Name="FlyoutPage" />
-  </FlyoutPage.Flyout>
-  <FlyoutPage.Detail>
-        <NavigationPage BarBackgroundColor = "{AppThemeBinding Light={StaticResource LightBarColor}, Dark={StaticResource DarkBarColor}}" BackgroundColor = "{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}" x:Name="Nav">
-      <x:Arguments>
+    </FlyoutPage.Flyout>
+    
+    <FlyoutPage.Detail>
+    <NavigationPage BarBackgroundColor = "{AppThemeBinding Light={StaticResource LightBarColor}, Dark={StaticResource DarkBarColor}}" BackgroundColor = "{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}" x:Name="Nav">
+        <x:Arguments>
         <pages:MainPage />
-      </x:Arguments>
+        </x:Arguments>
     </NavigationPage>
-  </FlyoutPage.Detail>
+    </FlyoutPage.Detail>
 </FlyoutPage>
