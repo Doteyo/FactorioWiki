@@ -15,14 +15,28 @@ namespace FactorioWiki
         ObservableCollection<FactorioItem> filtered = new ObservableCollection<FactorioItem>();
         FactorioItemsListViewModel model = new FactorioItemsListViewModel();
         List<ListView> listViews = new List<ListView>();
+        List<Custom> items = new List<Custom>();
         public MainPage()
         {
             InitializeComponent();
             BindingContext = new FactorioItemsListViewModel();
             Filtered.ItemsSource = filtered;
             Filtered.IsVisible = false;
-            NonCraftableItems.IsVisible = false;
-            listViews.Add(NonCraftableItems);
+            items.Add(new Custom() { Name = "Ресурсы", items = model.Resources });
+            items.Add(new Custom() { Name = "Инструменты", items = model.Tools });
+            items.Add(new Custom() { Name = "Оружие", items = model.Weapons });
+            items.Add(new Custom() { Name = "Хранилища", items = model.Vaults });
+            items.Add(new Custom() { Name = "Добыча", items = model.OreMining });
+            items.Add(new Custom() { Name = "Производство", items = model.Production });
+            items.Add(new Custom() { Name = "Энергетика", items = model.PowerSupply });
+            items.Add(new Custom() { Name = "Манипуляторы", items = model.Manipulator });
+            items.Add(new Custom() { Name = "Технологии", items = model.Technology });
+            items.Add(new Custom() { Name = "Пакеты", items = model.Pack });
+            items.Add(new Custom() { Name = "Блоки", items = model.Terrain });
+            items.Add(new Custom() { Name = "Заготовки", items = model.Intermidiates });
+            items.Add(new Custom() { Name = "Жидкости", items = model.LiquidExtraction });
+            items.Add(new Custom() { Name = "Транспортировка", items = model.ResourceDelivery });
+            Categories.ItemsSource = items;
         }
 
         private async void ItemList_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -66,6 +80,16 @@ namespace FactorioWiki
                 collection.Add(c);
         }
 
-        private void Resource_Button_Clicked(object sender, EventArgs e) => NonCraftableItems.IsVisible = NonCraftableItems.IsVisible ? false : true;
+        private async void Categories_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var item = e.Item as Custom;
+            await Navigation.PushAsync(new ListPage(item.items));
+        }
+    }
+    public class Custom
+    {
+        public string Name { get; set; }
+
+        public ObservableCollection<FactorioItem> items { get; set; }
     }
 }

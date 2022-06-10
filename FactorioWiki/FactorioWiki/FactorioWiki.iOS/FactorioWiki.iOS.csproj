@@ -205,4 +205,172 @@
   <ItemGroup>
     <BundleResource Include="Resources\Iron_plate.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Iron_gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Copper_cable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Solid_fuel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Sulfuric_acid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Advanced_circuit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Iron_stick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Engine_unit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steel_plate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Submachine_gun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Shotgun_shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Piercing_shotgun_shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Grenade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steel_chest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Wooden_chest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Iron_chest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Iron_axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Repair_pack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steel_axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pack3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Transport_belt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Ground_belt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Splitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pipe_ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Assembling2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Assembling3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Assembling1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Battery_block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steam_turbine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Small_pole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Medium_pole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Big_pole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Substation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Small_lamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Boiler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steam_engine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Solar_panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Electric_drill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Centrifuge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Stone_furnace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Steel_furnace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Electric_furnace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Burner_drill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Fast_inserter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Filter_inserter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Long_inserter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Burner_inserter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Inserter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Chemical_plant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pumpjack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Offshore_pump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Oil_refinery.png" />
+  </ItemGroup>
 </Project>

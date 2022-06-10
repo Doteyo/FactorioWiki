@@ -10,40 +10,26 @@
     </ContentPage.Resources>
     
         <StackLayout>
-        <Entry Placeholder="Введите название предмета" x:Name="Search" TextChanged="Search_TextChanged" Focused="Search_Focused" Unfocused="Search_Unfocused"/>
+        <Entry Placeholder="Введите название предмета" x:Name="Search" TextChanged="Search_TextChanged" Focused="Search_Focused" Unfocused="Search_Unfocused" />
         <ListView x:Name="Filtered" ItemTapped="ItemList_ItemTapped" x:DataType="local:FactorioItem" HorizontalOptions="StartAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
-                            <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
-                            <Image Source="{Binding Picture}"/>
+                            <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" />
+                            <Image Source="{Binding Picture}" />
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Ресурсы" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" FontSize="Medium" x:Name="Resource_Button" Clicked="Resource_Button_Clicked"/>
-        <ListView x:Name="NonCraftableItems" ItemTapped="ItemList_ItemTapped" ItemsSource="{Binding Resources}" HorizontalOptions="StartAndExpand">
+        <Label Text="Категории предметов" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+        <ListView x:Name="Categories" ItemTapped="Categories_ItemTapped" x:DataType="local:Custom" HorizontalOptions="StartAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
-                            <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
-                            <Image Source="{Binding Picture}"/>
-                        </FlexLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <Button Text="Инструменты"/>
-        <ListView x:Name="ToolsItems" ItemTapped="ItemList_ItemTapped" ItemsSource="{Binding Tools}" HorizontalOptions="StartAndExpand">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
-                            <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
-                            <Image Source="{Binding Picture}"/>
+                            <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5" />
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>

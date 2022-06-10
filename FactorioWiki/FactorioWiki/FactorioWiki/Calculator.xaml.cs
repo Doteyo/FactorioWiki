@@ -15,13 +15,15 @@ namespace FactorioWiki
         public ObservableCollection<CustomTuple> Resorces;
 
         public ObservableCollection<FactorioItem> Factors;
+
+        public FactorioItemsListViewModel model = new FactorioItemsListViewModel();
         public Calculator()
         {
             InitializeComponent();
             Resorces = new ObservableCollection<CustomTuple>();
             ResorcesList.ItemsSource = Resorces;
             Factors = new ObservableCollection<FactorioItem>();
-            foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ResoursesToCraft.Length > 0))
+            foreach (var c in model.FactorioItems.Where(x => x.ResoursesToCraft.Length > 0))
                 Factors.Add(c);
             ItemList.ItemsSource = Factors;
         }
@@ -31,14 +33,14 @@ namespace FactorioWiki
             if (TextEntry.Text.Length == 0)
             {
                 Factors.Clear();
-                foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ResoursesToCraft.Length > 0))
+                foreach (var c in model.FactorioItems.Where(x => x.ResoursesToCraft.Length > 0))
                     Factors.Add(c);
                 ItemList.ItemsSource = Factors;
             }
             else
             {
                 Factors.Clear();
-                foreach (var c in new FactorioItemsListViewModel().FactorioItems.Where(x => x.ItemName.ToLower().Contains(e.NewTextValue.ToLower()) && x.ResoursesToCraft.Length > 0))
+                foreach (var c in model.FactorioItems.Where(x => x.ItemName.ToLower().Contains(e.NewTextValue.ToLower()) && x.ResoursesToCraft.Length > 0))
                     Factors.Add(c);
             }
         }

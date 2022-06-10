@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FactorioWiki"
+             x:Class="FactorioWiki.ListPage"
+             BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary Source="ColorDictionary.xaml"/>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ItemsList" ItemTapped="ItemList_ItemTapped" HorizontalOptions="StartAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <FlexLayout JustifyContent="Start" AlignItems="Center" BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor}, Dark={StaticResource DarkPrimaryColor}}">
+                                <Label Text="{Binding ItemName}" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}" Margin="5"/>
+                                <Image Source="{Binding Picture}"/>
+                            </FlexLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

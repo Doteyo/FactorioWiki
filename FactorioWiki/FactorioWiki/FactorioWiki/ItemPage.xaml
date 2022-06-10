@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FactorioWiki"
-             x:Class="FactorioWiki.Page1" BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
+             x:Class="FactorioWiki.Page1" 
+             BackgroundColor="{AppThemeBinding Light={StaticResource LightMenuColor}, Dark={StaticResource DarkMenuColor}}">
     
     <ContentPage.Resources>
         <ResourceDictionary Source="ColorDictionary.xaml"/>
@@ -14,7 +15,7 @@
             <Label x:Name="Name" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
             <Label x:Name="TimeLabel" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
             <Label x:Name="ItemDesc" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
-            <Label x:Name="Bruh" Text="Предмет создаётся тут:" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
+            <Label x:Name="Bruh" Text="Связанные предметы:" TextColor="{AppThemeBinding Light={StaticResource LightSecondaryColor}, Dark={StaticResource DarkSecondaryColor}}"/>
             <ListView x:Name="FactoryList" x:DataType="local:FactorioItem" ItemTapped="FactoryList_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>

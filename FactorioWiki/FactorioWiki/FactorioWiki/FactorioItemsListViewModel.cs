@@ -35,8 +35,13 @@ namespace FactorioWiki
         public ObservableCollection<FactorioItem> Manipulator { get; set; }
 
         public ObservableCollection<FactorioItem> Technology { get; set; }
+
+        public ObservableCollection<FactorioItem> LiquidExtraction { get; set; }
+
+        public ObservableCollection<FactorioItem> Intermidiates { get; set; }
         public FactorioItemsListViewModel()
         {
+            new Factories();
             FactorioItems = new ObservableCollection<FactorioItem>();
             Resources = new ObservableCollection<FactorioItem>();
             Vaults = new ObservableCollection<FactorioItem>();
@@ -49,6 +54,9 @@ namespace FactorioWiki
             Terrain = new ObservableCollection<FactorioItem>();
             Manipulator = new ObservableCollection<FactorioItem>();
             Technology = new ObservableCollection<FactorioItem>();
+            LiquidExtraction = new ObservableCollection<FactorioItem>();
+            Tools = new ObservableCollection<FactorioItem>();
+            Intermidiates = new ObservableCollection<FactorioItem>();
 
             FillCollection(new Resoursec(), new[] { Resources, FactorioItems});
             FillCollection(new Vaults(), new[] { Vaults, FactorioItems });
@@ -61,6 +69,9 @@ namespace FactorioWiki
             FillCollection(new Terrain(), new[] { Terrain, FactorioItems });
             FillCollection(new Manipulator(), new[] { Manipulator, FactorioItems });
             FillCollection(new Technology(), new[] { Technology, FactorioItems });
+            FillCollection(new LiquidExtraction(), new[] { LiquidExtraction, FactorioItems });
+            FillCollection(new Tools(), new[] { Tools, FactorioItems });
+            FillCollection(new Intermediates(), new[] { Intermidiates, FactorioItems });
         }   
 
         private void FillCollection(Resoursec res, params ObservableCollection<FactorioItem>[] items)
